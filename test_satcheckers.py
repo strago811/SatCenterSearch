@@ -41,8 +41,8 @@ class TestSatchecker():
         # locate the dropdown element by id
         dropdown = Select(self.driver.find_element(By.ID, "apricot_select_4"))
         time.sleep(1)
-        dropdown.select_by_visible_text("August 26, 2023 — Saturday") #change to match your wanted date
-        #dropdown.select_by_value("2023-06-03")
+        dropdown.select_by_visible_text("August 24, 2024 — Saturday") #change to match your wanted date
+        #dropdown.select_by_value("2024-08-24")
         #self.driver.find_element(By.ID, "student").click()
         text_input = self.driver.find_element(By.ID, "apricot_input_5")
         text_input.send_keys(location)
